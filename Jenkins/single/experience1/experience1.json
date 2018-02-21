@@ -1,0 +1,12 @@
+{
+    "$schema": "https://immtest-web.azurewebsites.net/schemas/0.0.1/Immersion ExperienceMetadata.json",
+    "title": "Experience No. 1",
+    "description": "Test Experiance 1",
+    "permissions": [
+        "admins"
+    ],
+    "story_ids": [
+        "story://root/single/experience1/story1",
+        "story://root/single/experience1/story2"
+    ]
+}
