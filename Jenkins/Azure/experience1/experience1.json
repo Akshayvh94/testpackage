@@ -6,7 +6,6 @@
         "admins"
     ],
     "story_ids": [
-        "story://root/single/experience1/story1",
-        "story://root/single/experience1/story2"
+        "story://Jenkins/Azure/experience1/story1"
     ]
 }

@@ -3,8 +3,8 @@
     "title": "Single Track Facilitated Lab",
     "description": "Lorem ipsum dorem, dolor sit amet",
     "experience_ids": [
-        "experience://root/single/experience1",
-        "experience://root/single/experience2"
+        "experience://jenkins/single/experience1",
+        "experience://jenkins/single/experience2"
     ],
     "permissions": [
         "admins"
