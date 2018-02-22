@@ -1,12 +1,13 @@
 {
-    "$schema": "https://immtest-web.azurewebsites.net/schemas/0.0.1/Immersion TrackMetadata.json",
+    "$schema": "https://immtest-web.azurewebsites.net/schemas/0.0.3/ImmersionTrackMetadata.json",
     "title": "Single Track Facilitated Lab",
-    "description": "Lorem ipsum dorem, dolor sit amet",
+    "description": "Integrating with Jenkins",
     "experience_ids": [
-        "experience://jenkins/single/experience1",
-        "experience://jenkins/single/experience2"
+        "experience://jenkins/single/experience1"
     ],
     "permissions": [
         "admins"
-    ]
+    ],
+    "solution_area": "infrastructure",
+    "category": "none"
 }

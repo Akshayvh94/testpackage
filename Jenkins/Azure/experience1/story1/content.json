@@ -1,0 +1,34 @@
+{
+    "$schema": "https://immtest-web.azurewebsites.net/schemas/0.0.1/ImmersionStoryMetadata.json",
+    "title": "Integrating with Jenkins",
+    "short_title": "Integrating with Jenkins",
+    "description": "Integrating with Jenkins",
+    "date_created": "2018-02-22",
+    "regions": [ "southcentralus", "eastus2" ],
+    "topics": [ "Administration", "IT & Cloud Infrastructure" ],
+    "products": [ "Azure" ],
+    "jobroles": [ "IT Infrastructure Specialist", "Systems Administrator", "DevOps Professional" ],
+    "audiences": [ "IT Administrator & Implementer" ],
+    "level": "Beginner",
+    "duration_minutes": 40,
+    "access_time_minutes": 120,
+    "warmup_time_minutes": 10,
+    "permissions": [ "everybody" ],
+    "persona_role": "ITManager",
+    "primary_template": "template.json",
+    "resources": {
+      "launch_azure_portal": {
+        "helper": "launchie",
+        "arguments": [
+          "https://portal.azure.com/"
+        ]
+      }
+    },
+    "parameters": {
+      "facilitator": "template.parameters.json",
+      "student": "template.parameters.json",
+      "standalone": "template.parameters.json"
+    },
+    "depends_on": [ "story://Azure/experience1" ]
+  }
+  
