@@ -1,4 +1,4 @@
-## **Scenario 2 - Setting up the Jenkins VM**
+## **Scenario 2 - Setting up the Jenkins Environment**
 
  To configure Jenkins, the Jenkins VM image available on the Azure MarketPlace will be used. This will install the latest stable Jenkins version on a Ubuntu Linux VM along with the tools and plugins configured to work with Azure.
 
