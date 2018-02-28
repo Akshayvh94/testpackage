@@ -22,4 +22,33 @@
 
  1. In **Create Jenkins** blade **Configure Basic Setting** would be selected
 
+ 1. In Name field Enter **jenkins**
 
+ 1. In User Name field Enter **jenkinsadmin**. 
+ 
+ 1. Make sure that Authentication Type is selected to **Password**
+
+ 1. In Password field enter **P2ssw0rd@123**. Enter the same in Confirm Password filed.
+
+ 1. Make sure that subscription field is set to **Visual Studio Enterprise**
+
+ 1. Select Resource Group **Use Existing**
+
+ 1. Select location **South Central US**
+
+ 1. Once ypu filled all the fields, click on **OK***
+
+ 1. On additional setting tab select the size **Standasr DS2 V2**
+
+ 1. Select VM Disk Type to **HDD**
+
+ 1. Fill the Domain Name Label **jenkisndomain**. if the domain is not available append the name with some digits.
+1.  Leave the rest of the field as it is and click on *OK*
+
+1. On the Integration Setting Tab, make sure that Service Principal Integration is set to **Auto(MSI)** and Enable Cloud Agent set to **VM**
+
+1. On the summary ta make sure that all the details are corrcet. Click on **OK**
+
+1. On the Buy tab, read the agreement and click on **Create** button.
+
+1. Jenkis VM will be provisoined.
